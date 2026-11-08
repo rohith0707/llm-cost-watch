@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tr_001",
+    "feature": "customer_intent_classifier",
+    "model": "gpt-4o",
+    "task_type": "classification",
+    "prompt": "Classify the following inbound message into [Billing, Technical, Sales, Bug]: 'My invoice for October is wrong.'",
+    "input_tokens": 850,
+    "output_tokens": 12,
+    "latency_ms": 780.0,
+    "status": "success",
+    "timestamp": "2026-11-08T08:00:00Z"
+  },
+  {
+    "id": "tr_002",
+    "feature": "customer_intent_classifier",
+    "model": "gpt-4o",
+    "task_type": "classification",
+    "prompt": "Classify: 'How do I connect my LangGraph workflow to PostgreSQL?'",
+    "input_tokens": 1200,
+    "output_tokens": 15,
+    "latency_ms": 840.0,
+    "status": "success",
+    "timestamp": "2026-11-08T08:05:00Z"
+  },
+  {
+    "id": "tr_003",
+    "feature": "customer_intent_classifier",
+    "model": "gpt-4o",
+    "task_type": "classification",
+    "prompt": "Classify: 'Cancel my subscription immediately please.'",
+    "input_tokens": 920,
+    "output_tokens": 14,
+    "latency_ms": 750.0,
+    "status": "success",
+    "timestamp": "2026-11-08T08:10:00Z"
+  },
+  {
+    "id": "tr_004",
+    "feature": "knowledge_base_rag",
+    "model": "claude-3-5-sonnet",
+    "task_type": "rag_synthesis",
+    "prompt": "Synthesize a 3-paragraph answer using retrieved context from 12 policy documents: [Context chunk 1... chunk 12]",
+    "input_tokens": 6800,
+    "output_tokens": 480,
+    "latency_ms": 2850.0,
+    "status": "success",
+    "timestamp": "2026-11-08T09:00:00Z"
+  },
+  {
+    "id": "tr_005",
+    "feature": "knowledge_base_rag",
+    "model": "claude-3-5-sonnet",
+    "task_type": "rag_synthesis",
+    "prompt": "Synthesize employee travel policy exceptions for business trips over 14 days with client approval requirements.",
+    "input_tokens": 5400,
+    "output_tokens": 520,
+    "latency_ms": 2650.0,
+    "status": "success",
+    "timestamp": "2026-11-08T09:15:00Z"
+  },
+  {
+    "id": "tr_006",
+    "feature": "knowledge_base_rag",
+    "model": "claude-3-5-sonnet",
+    "task_type": "rag_synthesis",
+    "prompt": "Compare compliance clause 4.2 with EU GDPR standard guidelines in retrieved appendix 3.",
+    "input_tokens": 7200,
+    "output_tokens": 610,
+    "latency_ms": 3120.0,
+    "status": "success",
+    "timestamp": "2026-11-08T09:30:00Z"
+  },
+  {
+    "id": "tr_007",
+    "feature": "support_ticket_json_extractor",
+    "model": "gpt-4o",
+    "task_type": "json_format",
+    "prompt": "Extract JSON keys {urgency, customer_tier, product_area} from ticket #9921.",
+    "input_tokens": 1800,
+    "output_tokens": 45,
+    "latency_ms": 1100.0,
+    "status": "success",
+    "timestamp": "2026-11-08T10:00:00Z"
+  },
+  {
+    "id": "tr_008",
+    "feature": "support_ticket_json_extractor",
+    "model": "gpt-4o",
+    "task_type": "json_format",
+    "prompt": "Extract JSON keys from ticket #9922 regarding API gateway 502 Bad Gateway timeouts.",
+    "input_tokens": 2100,
+    "output_tokens": 50,
+    "latency_ms": 1250.0,
+    "status": "success",
+    "timestamp": "2026-11-08T10:15:00Z"
+  },
+  {
+    "id": "tr_009",
+    "feature": "code_generation_copilot",
+    "model": "claude-3-5-sonnet",
+    "task_type": "code_reasoning",
+    "prompt": "Write a TypeScript LangGraph state graph with 3 subagents and conditional routing on error status.",
+    "input_tokens": 3200,
+    "output_tokens": 850,
+    "latency_ms": 1950.0,
+    "status": "success",
+    "timestamp": "2026-11-08T11:00:00Z"
+  },
+  {
+    "id": "tr_010",
+    "feature": "lead_enrichment_miner",
+    "model": "claude-3-5-haiku",
+    "task_type": "enrichment",
+    "prompt": "Parse company website text and extract founder email and title.",
+    "input_tokens": 1400,
+    "output_tokens": 60,
+    "latency_ms": 410.0,
+    "status": "success",
+    "timestamp": "2026-11-08T11:30:00Z"
+  }
+]
