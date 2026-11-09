@@ -5,6 +5,8 @@
 
 [![MCP 2.x](https://img.shields.io/badge/MCP-2.x%20Ready-blue)](https://modelcontextprotocol.io)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-brightgreen.svg)](https://python.org)
+[![TrustMRR Verified](https://img.shields.io/badge/TrustMRR-Startup%20Listing%20($25k)-0052FF.svg)](https://trustmrr.com/startup/leadflow-ai)
+[![Gumroad](https://img.shields.io/badge/Gumroad-LeadHunter%20Engine%20($149)-FF90E8.svg)](https://balsarohith.gumroad.com/l/LeadHunter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
@@ -78,4 +80,6 @@ python test_server.py
 
 ## Commercial Licensing & Architecture Audits
 - **Free Core:** Open-source under MIT.
-- **Enterprise SLA & 14-Day Concurrency / Cost Audit ($2,500):** Contact Rohith Balsa (`balsarohith7@gmail.com` | `linkedin.com/in/rohithbalsa`).
+- **Acquisition & IP Rights:** Listed on [TrustMRR: AgentControl & Decision Plane ($25,000 asking price)](https://trustmrr.com/startup/leadflow-ai).
+- **Self-Hosted Engine:** Get the production [LeadHunter & Concurrency Kit on Gumroad ($149)](https://balsarohith.gumroad.com/l/LeadHunter).
+- **Enterprise SLA & 14-Day Concurrency / Cost Audit ($2,500):** Contact Rohith Balsa (`balsarohith5@gmail.com` | [LinkedIn](https://linkedin.com/in/rohithbalsa)).
