@@ -12,6 +12,15 @@
 
 ---
 
+## 📺 90-Second Explainer Video Walkthrough
+
+[![Watch the 90-Second Walkthrough](docs/demo_preview.gif)](https://github.com/rohith0707/llm-cost-watch/releases/download/v1.0.0/llm_cost_watch_explainer.mp4)
+
+> **▶️ [Click here to download / watch the full 1080p MP4 walkthrough (with voiceover)](https://github.com/rohith0707/llm-cost-watch/releases/download/v1.0.0/llm_cost_watch_explainer.mp4)**  
+> *Explaining why multi-agent swarms face compounding token spikes, how local-first MCP telemetry works, and how to cut LLM spend by 94% with automated micro-model routing.*
+
+---
+
 ## What is `llm-cost-watch`?
 
 Instead of clicking through complex web dashboards, `llm-cost-watch` lets you ask Claude directly inside **Claude Desktop**, **Claude Code**, or **Antigravity**:
